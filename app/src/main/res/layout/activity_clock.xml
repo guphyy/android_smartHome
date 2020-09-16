@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F4F4F4"
+    android:backgroundTint="#DEDEDEDE"
+    >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="176dp"
+        android:layout_y="9dp"
+        android:backgroundTint="#1785C6"
+        android:text="时间"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/button_digital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="42dp"
+        android:layout_y="550dp"
+        android:background="@drawable/buttonstyle"
+        android:text="数字时间" />
+
+    <Button
+        android:id="@+id/button_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="169dp"
+        android:layout_y="550dp"
+        android:background="@drawable/buttonstyle"
+        android:text="RESET" />
+
+    <Button
+        android:id="@+id/button_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="293dp"
+        android:layout_y="550dp"
+        android:background="@drawable/buttonstyle"
+        android:text="计时" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@mipmap/fanhui"
+        />
+
+    <com.example.shixun.WatchView
+        android:id="@+id/watchView"
+        android:layout_width="292dp"
+        android:layout_height="413dp"
+        android:layout_x="64dp"
+        android:layout_y="108dp" />
+
+</AbsoluteLayout>

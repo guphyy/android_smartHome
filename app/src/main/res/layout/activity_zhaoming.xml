@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DEDEDE"
+    tools:context=".MainActivity"><![CDATA[  +200dp />]]>
+
+    <TextView
+        android:id="@+id/confirm"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_x="110dp"
+        android:layout_y="10dp"
+        android:gravity="center"
+        android:text="照明系统"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/power"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="@id/confirm"
+        android:layout_x="110dp"
+        android:layout_y="110dp"
+        android:background="@mipmap/dianyuan1" />
+
+    <Button
+        android:id="@+id/buttonRed"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="30dp"
+        android:layout_y="350dp"
+        android:text="Red"
+        android:background="@drawable/button_style_circle"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <Button
+        android:id="@+id/buttonGreen"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="165dp"
+        android:layout_y="350dp"
+        android:text="Green"
+        android:background="@drawable/button_style_circle"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <Button
+        android:id="@+id/buttonBlue"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="300dp"
+        android:layout_y="350dp"
+        android:text="Blue"
+        android:background="@drawable/button_style_circle"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <Button
+        android:id="@+id/buttonTimer"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="30dp"
+        android:layout_y="500dp"
+        android:background="@mipmap/timer"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="500dp" />
+
+    <Button
+        android:id="@+id/buttonFlash"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="165dp"
+        android:layout_y="500dp"
+        android:background="@mipmap/shanshuo1"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="500dp" />
+
+    <Button
+        android:id="@+id/buttonMore"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="300dp"
+        android:layout_y="500dp"
+        android:text="For More"
+        android:background="@drawable/button_style_circle"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="500dp" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@mipmap/fanhui"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="10dp"
+        />
+
+</AbsoluteLayout>
